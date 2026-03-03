@@ -1,0 +1,44 @@
+/* Better tap experience */
+button, a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Prevent image overflow on small screens */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+/* ================= FOOTER ANIMATION ================= */
+.footer-hidden {
+  opacity: 0;
+  transform: translateY(60px);
+  transition: opacity 0.9s ease, transform 0.9s ease;
+}
+
+.footer-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+
+
+/* Mobile polish */
+@media (max-width: 640px) {
+  section {
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
+  }
+
+  h3 {
+    line-height: 1.2;
+  }
+
+  .footer-hidden {
+    transform: translateY(40px);
+  }
+}

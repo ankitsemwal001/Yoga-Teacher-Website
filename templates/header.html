@@ -1,0 +1,60 @@
+<header class="fixed top-0 left-0 w-full z-50 bg-white/70 backdrop-blur border-b">
+  <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+
+    <!-- Logo -->
+    <div class="flex items-center gap-3">
+
+  <a href="../pages/home.html#hero" class="flex items-center gap-3">
+
+    <!-- Logo Image -->
+    <img src="../assets/logo.png"
+         alt="Gokul Methani Yoga Logo"
+         class="h-10 w-auto object-contain" />
+
+    <!-- Brand Name -->
+    <h1 class="hidden lg:block font-bold text-lg">
+      Gokul Methani
+    </h1>
+
+  </a>
+
+</div>
+
+    <!-- Desktop Nav -->
+    <nav class="hidden md:flex gap-8 text-sm font-medium">
+      <a href="../pages/home.html#about" class="hover:text-primary">About</a>
+      <a href="../pages/home.html#classes" class="hover:text-primary">Classes</a>
+      <a href="../pages/home.html#schedule" class="hover:text-primary">Schedule</a>
+      <a href="../pages/home.html#contact" class="hover:text-primary">Contact</a>
+    </nav>
+
+    <!-- CTA -->
+    <a
+      href="../pages/home.html#contact"
+      class="hidden md:inline-block bg-primary px-5 py-2 rounded-lg font-bold text-dark"
+    >
+      Book Now
+    </a>
+
+    <!-- Mobile Button -->
+    <button
+      class="md:hidden text-3xl"
+      onclick="document.getElementById('mobileMenu').classList.toggle('hidden')">
+      ☰
+    </button>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div id="mobileMenu" class="hidden md:hidden bg-white border-t">
+    <nav class="flex flex-col px-6 py-6 gap-4 text-sm font-medium">
+      <a href="../pages/home.html#about">About</a>
+      <a href="../pages/home.html#classes">Classes</a>
+      <a href="../pages/home.html#schedule">Schedule</a>
+      <a href="../pages/home.html#contact">Contact</a>
+      <a href="../pages/home.html#contact"
+         class="mt-4 bg-primary py-3 rounded-lg font-bold text-dark text-center">
+        Book Now
+      </a>
+    </nav>
+  </div>
+</header>
