@@ -7,9 +7,7 @@ This project is developed using **HTML, CSS, and JavaScript** with a clean and m
 
 ## 🚀 Live Demo
 
-(After enabling GitHub Pages)
-
-👉 https://ankitsemwal001.github.io/Yoga-Teacher-Website/
+gokulmaithani.netlify.app
 
 ---
 
