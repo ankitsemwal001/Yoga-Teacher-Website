@@ -41,6 +41,7 @@
 
 
   <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body class="font-display bg-light text-slate-900 pt-20">
@@ -322,7 +323,7 @@
           Yoga sequences designed for recovery and pain management.
         </p>
 
-        <a href="ITC.html"
+        <a href="therapeutic.html"
            class="group text-primary font-bold inline-flex items-center gap-2">
 
           <span class="relative">
@@ -870,6 +871,57 @@
 
   </div>
 </section> 
+
+
+<!-- FLOATING FEEDBACK BUTTON -->
+
+<button id="feedbackBtn"
+class="feedback-breath fixed bottom-6 right-6 bg-primary text-dark p-4 rounded-full shadow-2xl hover:scale-110 hover:shadow-primary/50 transition z-50">
+
+<svg xmlns="http://www.w3.org/2000/svg"
+class="w-6 h-6"
+fill="none"
+stroke="currentColor"
+stroke-width="2"
+viewBox="0 0 24 24">
+
+<path stroke-linecap="round"
+stroke-linejoin="round"
+d="M7 8h10M7 12h6m5 8l-4-4H5a2 2 0 01-2-2V5a2 2 0 012-2h14a2 2 0 012 2v9a2 2 0 01-2 2h-3z"/>
+
+</svg>
+
+</button>
+
+<!-- FEEDBACK MODAL -->
+
+<div id="feedbackModal"
+class="fixed inset-0 bg-black/50 hidden items-center justify-center z-50">
+
+<div class="bg-white rounded-2xl p-10 max-w-md text-center shadow-2xl">
+
+<h3 class="text-2xl font-black mb-4 text-slate-900">
+Loved your yoga experience?
+</h3>
+
+<p class="text-slate-600 mb-8">
+Share your feedback and help others start their journey.
+</p>
+
+<button id="whatsappReview"
+class="bg-primary text-dark px-6 py-3 rounded-xl font-bold hover:shadow-lg transition mb-4">
+Write Review on WhatsApp
+</button>
+
+<br>
+
+<button id="closeFeedback"
+class="text-slate-500 text-sm hover:text-slate-900">
+Close
+</button>
+
+</div>
+</div>
 
 <!-- ================= CONTACT ================= -->
 <section id="contact" class="py-24 bg-[#f6f8f6]"

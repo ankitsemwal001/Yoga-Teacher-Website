@@ -104,3 +104,57 @@ function closeModal() {
   modal.classList.add("hidden");
   modal.classList.remove("flex");
 }
+
+
+
+// feedback
+
+const feedbackBtn = document.getElementById("feedbackBtn");
+const feedbackModal = document.getElementById("feedbackModal");
+const closeFeedback = document.getElementById("closeFeedback");
+const whatsappReview = document.getElementById("whatsappReview");
+
+feedbackBtn.addEventListener("click", () => {
+  feedbackModal.classList.remove("hidden");
+  feedbackModal.classList.add("flex");
+});
+
+closeFeedback.addEventListener("click", () => {
+  feedbackModal.classList.add("hidden");
+});
+
+whatsappReview.addEventListener("click", () => {
+
+  const message = encodeURIComponent(
+`Namaste Gokul ji 🙏
+
+I wanted to share my feedback about your yoga classes:
+
+⭐ Rating: _____ /5
+
+My experience:
+________________________________
+
+Thank you for the guidance!`
+  );
+
+  const phone = "918979400645";
+
+  const whatsappURL = `https://wa.me/${phone}?text=${message}`;
+
+  window.open(whatsappURL, "_blank");
+
+});
+
+
+window.addEventListener("scroll", () => {
+
+const feedbackBtn = document.getElementById("feedbackBtn");
+
+if(window.scrollY > 600){
+
+feedbackBtn.classList.add("feedback-breath");
+
+}
+
+});
