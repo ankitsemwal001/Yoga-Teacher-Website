@@ -1,0 +1,88 @@
+/* ===== Footer base ===== */
+#siteFooter {
+  width: 100%;
+  background: #162111;
+  color: #cbd5e1;
+  padding-top: 5rem;
+}
+
+#siteFooter > div {
+  width: 100%;
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* top row fallback layout if Tailwind classes are missing */
+#siteFooter > div > .grid:first-of-type {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+  padding-bottom: 4rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  align-items: start;
+}
+
+/* links + contact block */
+#siteFooter > div > .grid:first-of-type > div:last-child {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+/* heading and copy colors */
+#siteFooter h2,
+#siteFooter h3 {
+  color: #ffffff;
+}
+
+#siteFooter p {
+  color: #94a3b8;
+}
+
+#siteFooter a {
+  color: inherit;
+}
+
+/* social icons */
+#siteFooter > div > .grid:first-of-type > div:first-child > div:last-child a {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #cbd5e1;
+}
+
+#siteFooter > div > .grid:first-of-type > div:first-child > div:last-child a:hover {
+  background: #5de619;
+  color: #162111;
+}
+
+/* copyright */
+#siteFooter > div > div:last-child {
+  padding: 2rem 0;
+  text-align: center;
+  font-size: 0.875rem;
+  color: #94a3b8;
+}
+
+@media (min-width: 768px) {
+  #siteFooter > div > .grid:first-of-type {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+    gap: 2.5rem;
+  }
+}
+
+@media (max-width: 640px) {
+  #siteFooter {
+    padding-top: 3.75rem;
+  }
+
+  #siteFooter > div > .grid:first-of-type > div:last-child {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}

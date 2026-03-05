@@ -37,6 +37,10 @@
   </script>
 
   <link rel="stylesheet" href="../css/home.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="../css/footer.css">
+
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
 </head>
 
 <body class="font-display bg-light text-slate-900 pt-20">
@@ -57,7 +61,9 @@
 />
   <div class="absolute inset-0 bg-black/60"></div>
 
-  <div class="relative z-10 text-center max-w-3xl px-6">
+  <div class="relative z-10 text-center max-w-3xl px-6"
+     data-aos="fade-up"
+     data-aos-duration="1200">
     <span class="inline-block mb-4 px-4 py-1 text-xs font-bold rounded-full bg-primary/20 text-primary">
       CERTIFIED YOGA EXCELLENCE
     </span>
@@ -96,7 +102,9 @@
 
 <!-- ================= ABOUT ================= -->
 <section id="about" class="py-24 bg-[#f7fbf4]">
-  <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
+  <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center"
+  data-aos="fade-left"
+     data-aos-duration="1200">
 
     <!-- IMAGE SIDE -->
     <div class="relative">
@@ -182,180 +190,228 @@
 
 <!-- ================= CLASSES ================= -->
 <section id="classes" class="py-24 bg-[#f3faee]">
+
   <div class="max-w-7xl mx-auto px-6">
 
     <!-- Heading -->
-    <div class="text-center mb-16">
+    <div class="text-center mb-16"
+         data-aos="fade-up"
+         data-aos-duration="1000">
+
       <span class="text-primary text-sm font-bold uppercase tracking-[0.3em]">
         Our Offerings
       </span>
+
       <h2 class="text-4xl md:text-5xl font-black mt-4 text-slate-900">
         Transformative Classes
       </h2>
+
     </div>
 
     <!-- Cards Grid -->
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
 
       <!-- Card 1 -->
-      <div class="bg-white p-10 rounded-2xl shadow-sm hover:shadow-xl transition justify-center items-center text-center">
+      <div class="bg-white p-10 rounded-2xl shadow-sm hover:shadow-xl transition text-center"
+           data-aos="fade-up"
+           data-aos-delay="100">
+
         <div class="w-14 h-14 flex items-center justify-center rounded-full mb-8 mx-auto">
-          <img src="../assets/vakasan.png" class="w-full h-full object-contain rounded-full" alt="Hatha Yoga">
+          <img src="../assets/vakasan.png" class="w-full h-full object-contain rounded-full">
         </div>
+
         <h4 class="text-xl font-extrabold mb-3">Hatha Yoga</h4>
+
         <p class="text-slate-500 mb-6 leading-relaxed">
-          Foundational practice focusing on physical postures (asanas) and
-          breathing techniques to align body and mind.
+          Foundational practice focusing on physical postures and breathing techniques.
         </p>
+
         <a href="hatha-yoga.html"
-   class="group text-primary font-bold inline-flex items-center gap-2 relative transition">
+           class="group text-primary font-bold inline-flex items-center gap-2">
 
-  <span class="relative">
-    Learn More
-    <span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-primary transition-all duration-300 group-hover:w-full"></span>
-  </span>
+          <span class="relative">
+            Learn More
+            <span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-primary transition-all duration-300 group-hover:w-full"></span>
+          </span>
 
-  <span class="transition-transform duration-300 group-hover:translate-x-1">
-    →
-  </span>
+          <span class="transition-transform duration-300 group-hover:translate-x-1">
+            →
+          </span>
 
-</a>
+        </a>
+
       </div>
+
 
       <!-- Card 2 -->
-<div class="bg-white p-10 rounded-2xl shadow-sm hover:shadow-xl transition justify-center items-center text-center">
-  <div class="w-14 h-14 flex items-center justify-center rounded-full mb-8 mx-auto">
-    <img src="../assets/natraj asan.png" class="w-full h-full object-contain rounded-full" alt="Ashtanga Yoga">
-  </div>
+      <div class="bg-white p-10 rounded-2xl shadow-sm hover:shadow-xl transition text-center"
+           data-aos="fade-up"
+           data-aos-delay="200">
 
-  <h4 class="text-xl font-extrabold mb-3">Ashtanga Yoga</h4>
+        <div class="w-14 h-14 flex items-center justify-center rounded-full mb-8 mx-auto">
+          <img src="../assets/natraj asan.png" class="w-full h-full object-contain rounded-full">
+        </div>
 
-  <p class="text-slate-500 mb-6 leading-relaxed">
-    A disciplined and structured practice combining breath,
-    strength, and progressive sequences to build stamina,
-    flexibility, and deep internal focus.
-  </p>
+        <h4 class="text-xl font-extrabold mb-3">Ashtanga Yoga</h4>
 
-  <a href="ashtanga.html"
-   class="group text-primary font-bold inline-flex items-center gap-2 relative transition">
+        <p class="text-slate-500 mb-6 leading-relaxed">
+          Structured sequences combining breath, strength and flexibility.
+        </p>
 
-  <span class="relative">
-    Learn More
-    <span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-primary transition-all duration-300 group-hover:w-full"></span>
-  </span>
+        <a href="ashtanga.html"
+           class="group text-primary font-bold inline-flex items-center gap-2">
 
-  <span class="transition-transform duration-300 group-hover:translate-x-1">
-    →
-  </span>
+          <span class="relative">
+            Learn More
+            <span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-primary transition-all duration-300 group-hover:w-full"></span>
+          </span>
 
-</a>
-</div>
+          <span class="transition-transform duration-300 group-hover:translate-x-1">
+            →
+          </span>
+
+        </a>
+
+      </div>
+
 
       <!-- Card 3 -->
-      <div class="bg-white p-10 rounded-2xl shadow-sm hover:shadow-xl transition justify-center items-center text-center">
+      <div class="bg-white p-10 rounded-2xl shadow-sm hover:shadow-xl transition text-center"
+           data-aos="fade-up"
+           data-aos-delay="300">
+
         <div class="w-14 h-14 flex items-center justify-center rounded-full mb-8 mx-auto">
-          <img src="../assets/namaste.png" class="w-full h-full object-contain rounded-full" alt="Pranayama & Meditation">
+          <img src="../assets/namaste.png" class="w-full h-full object-contain rounded-full">
         </div>
-        <h4 class="text-xl font-extrabold mb-3">Pranayama &amp; Meditation</h4>
+
+        <h4 class="text-xl font-extrabold mb-3">Pranayama & Meditation</h4>
+
         <p class="text-slate-500 mb-6 leading-relaxed">
-          Dedicated sessions for breath control and mindfulness to reduce stress
-          and enhance mental clarity.
+          Breathwork and mindfulness practices to calm the mind.
         </p>
+
         <a href="pranayama.html"
-   class="group text-primary font-bold inline-flex items-center gap-2 relative transition">
+           class="group text-primary font-bold inline-flex items-center gap-2">
 
-  <span class="relative">
-    Learn More
-    <span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-primary transition-all duration-300 group-hover:w-full"></span>
-  </span>
+          <span class="relative">
+            Learn More
+            <span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-primary transition-all duration-300 group-hover:w-full"></span>
+          </span>
 
-  <span class="transition-transform duration-300 group-hover:translate-x-1">
-    →
-  </span>
+          <span class="transition-transform duration-300 group-hover:translate-x-1">
+            →
+          </span>
 
-</a>
+        </a>
+
       </div>
+
 
       <!-- Card 4 -->
-      <div class="bg-white p-10 rounded-2xl shadow-sm hover:shadow-xl transition justify-center items-center text-center">
+      <div class="bg-white p-10 rounded-2xl shadow-sm hover:shadow-xl transition text-center"
+           data-aos="fade-up"
+           data-aos-delay="400">
+
         <div class="w-14 h-14 flex items-center justify-center rounded-full mb-8 mx-auto">
-          <img src="../assets/certificate.png" class="w-full h-full object-contain rounded-full" alt="Therapeutic Yoga">
+          <img src="../assets/certificate.png" class="w-full h-full object-contain rounded-full">
         </div>
+
         <h4 class="text-xl font-extrabold mb-3">Therapeutic Yoga</h4>
+
         <p class="text-slate-500 mb-6 leading-relaxed">
-          Targeted sequences designed to assist in recovery from injuries and
-          manage chronic pain conditions.
+          Yoga sequences designed for recovery and pain management.
         </p>
+
         <a href="ITC.html"
-   class="group text-primary font-bold inline-flex items-center gap-2 relative transition">
+           class="group text-primary font-bold inline-flex items-center gap-2">
 
-  <span class="relative">
-    Learn More
-    <span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-primary transition-all duration-300 group-hover:w-full"></span>
-  </span>
+          <span class="relative">
+            Learn More
+            <span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-primary transition-all duration-300 group-hover:w-full"></span>
+          </span>
 
-  <span class="transition-transform duration-300 group-hover:translate-x-1">
-    →
-  </span>
+          <span class="transition-transform duration-300 group-hover:translate-x-1">
+            →
+          </span>
 
-</a>
+        </a>
+
       </div>
+
 
       <!-- Card 5 -->
-      <div class="bg-white p-10 rounded-2xl shadow-sm hover:shadow-xl transition justify-center items-center text-center">
+      <div class="bg-white p-10 rounded-2xl shadow-sm hover:shadow-xl transition text-center"
+           data-aos="fade-up"
+           data-aos-delay="500">
+
         <div class="w-14 h-14 flex items-center justify-center rounded-full mb-8 mx-auto">
-          <img src="../assets/goku.png" class="w-full h-full object-contain rounded-full" alt="Beginner Yoga">
+          <img src="../assets/goku.png" class="w-full h-full object-contain rounded-full">
         </div>
+
         <h4 class="text-xl font-extrabold mb-3">Beginner Yoga</h4>
+
         <p class="text-slate-500 mb-6 leading-relaxed">
-          Perfect starting point for newcomers. Slow-paced instruction focusing
-          on safety and basic alignment.
+          Slow paced introduction perfect for new practitioners.
         </p>
+
         <a href="beginner-yoga.html"
-   class="group text-primary font-bold inline-flex items-center gap-2 relative transition">
+           class="group text-primary font-bold inline-flex items-center gap-2">
 
-  <span class="relative">
-    Learn More
-    <span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-primary transition-all duration-300 group-hover:w-full"></span>
-  </span>
+          <span class="relative">
+            Learn More
+            <span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-primary transition-all duration-300 group-hover:w-full"></span>
+          </span>
 
-  <span class="transition-transform duration-300 group-hover:translate-x-1">
-    →
-  </span>
+          <span class="transition-transform duration-300 group-hover:translate-x-1">
+            →
+          </span>
 
-</a>
+        </a>
+
       </div>
 
-      <!-- CTA Card -->
-      <div class="bg-primary p-10 rounded-2xl text-dark flex flex-col justify-center items-center text-center shadow-xl">
+
+      <!-- CTA -->
+      <div class="bg-primary p-10 rounded-2xl text-dark flex flex-col justify-center items-center text-center shadow-xl"
+           data-aos="fade-up"
+           data-aos-delay="600">
+
         <h4 class="text-2xl font-black mb-4">
           Start Your Journey
         </h4>
+
         <p class="mb-8 opacity-80">
           Not sure which class is right for you? Take our free orientation.
         </p>
+
         <a href="#contact"
-   class="bg-dark text-primary px-8 py-3 rounded-lg font-bold inline-block
-          border border-primary/40
-          transition duration-300
-          hover:border-primary hover:shadow-md hover:shadow-primary/30">
-  Book Trial
-</a>
+           class="bg-dark text-primary px-8 py-3 rounded-lg font-bold border border-primary/40 transition hover:shadow-md hover:shadow-primary/30">
+
+          Book Trial
+
+        </a>
+
       </div>
 
     </div>
+
   </div>
+
 </section>
 
+
+
 <!-- ================= SCHEDULE ================= -->
-<section id="schedule" class="py-24 bg-[#f9fbf7]">
+<section id="schedule" class="py-24 bg-[#f9fbf7]" data-aos="fade-up">
+
   <div class="max-w-7xl mx-auto px-6">
 
     <!-- Heading -->
-    <div class="text-center mb-16">
+    <div class="text-center mb-16" data-aos="fade-up">
       <span class="text-primary text-sm font-bold uppercase tracking-[0.3em]">
         Timings
       </span>
+
       <h2 class="text-4xl md:text-5xl font-black mt-4 text-slate-900">
         Class Schedule
       </h2>
@@ -364,122 +420,214 @@
     <!-- Grid -->
     <div class="grid md:grid-cols-2 gap-16">
 
-      <!-- Morning Batches -->
-      <div>
+      <!-- ================= MORNING ================= -->
+      <div data-aos="fade-right">
+
         <div class="flex items-center gap-3 mb-8">
+
+          <!-- icon -->
           <div class="w-10 h-10 flex items-center justify-center rounded-full bg-primary/15 text-primary">
-            ☀
+
+            <svg xmlns="http://www.w3.org/2000/svg"
+                 class="w-5 h-5"
+                 fill="none"
+                 stroke="currentColor"
+                 stroke-width="2"
+                 viewBox="0 0 24 24">
+
+              <circle cx="12" cy="12" r="5"/>
+              <line x1="12" y1="1" x2="12" y2="3"/>
+              <line x1="12" y1="21" x2="12" y2="23"/>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+              <line x1="1" y1="12" x2="3" y2="12"/>
+              <line x1="21" y1="12" x2="23" y2="12"/>
+
+            </svg>
+
           </div>
+
           <h4 class="text-2xl font-bold text-slate-900">
             Morning Batches
           </h4>
+
         </div>
 
+
         <!-- Batch 01 -->
-        <div class="bg-white rounded-xl p-6 mb-6 shadow-sm flex items-center justify-between">
+        <div class="bg-white rounded-xl p-6 mb-6 shadow-sm
+        hover:shadow-xl hover:-translate-y-1 transition duration-300
+        flex items-center justify-between"
+        data-aos="fade-up"
+        data-aos-delay="100">
+
           <div>
             <span class="text-primary text-sm font-bold">
               Batch 01
             </span>
+
             <h5 class="text-lg font-bold text-slate-900">
               Dawn Flow
             </h5>
           </div>
+
           <div class="text-right">
             <p class="text-xl font-black text-slate-900">
               6:00 – 7:00 AM
             </p>
+
             <span class="text-sm text-slate-500">
               Mon – Sat
             </span>
           </div>
+
         </div>
 
+
         <!-- Batch 02 -->
-        <div class="bg-white rounded-xl p-6 shadow-sm flex items-center justify-between">
+        <div class="bg-white rounded-xl p-6 shadow-sm
+        hover:shadow-xl hover:-translate-y-1 transition duration-300
+        flex items-center justify-between"
+        data-aos="fade-up"
+        data-aos-delay="200">
+
           <div>
             <span class="text-primary text-sm font-bold">
               Batch 02
             </span>
+
             <h5 class="text-lg font-bold text-slate-900">
               Gentle Start
             </h5>
           </div>
+
           <div class="text-right">
             <p class="text-xl font-black text-slate-900">
               7:30 – 8:30 AM
             </p>
+
             <span class="text-sm text-slate-500">
               Mon – Sat
             </span>
           </div>
+
         </div>
+
       </div>
 
-      <!-- Evening Batches -->
-      <div>
+
+
+      <!-- ================= EVENING ================= -->
+      <div data-aos="fade-left">
+
         <div class="flex items-center gap-3 mb-8">
+
+          <!-- icon -->
           <div class="w-10 h-10 flex items-center justify-center rounded-full bg-primary/15 text-primary">
-            🌙
+
+            <svg xmlns="http://www.w3.org/2000/svg"
+                 class="w-5 h-5"
+                 fill="none"
+                 stroke="currentColor"
+                 stroke-width="2"
+                 viewBox="0 0 24 24">
+
+              <path d="M21 12.79A9 9 0 1111.21 3
+                       7 7 0 0021 12.79z"/>
+
+            </svg>
+
           </div>
+
           <h4 class="text-2xl font-bold text-slate-900">
             Evening Batches
           </h4>
+
         </div>
 
+
         <!-- Batch 03 -->
-        <div class="bg-white rounded-xl p-6 mb-6 shadow-sm flex items-center justify-between">
+        <div class="bg-white rounded-xl p-6 mb-6 shadow-sm
+        hover:shadow-xl hover:-translate-y-1 transition duration-300
+        flex items-center justify-between"
+        data-aos="fade-up"
+        data-aos-delay="100">
+
           <div>
             <span class="text-primary text-sm font-bold">
               Batch 03
             </span>
+
             <h5 class="text-lg font-bold text-slate-900">
               Sunset Release
             </h5>
           </div>
+
           <div class="text-right">
             <p class="text-xl font-black text-slate-900">
               5:30 – 6:30 PM
             </p>
+
             <span class="text-sm text-slate-500">
               Mon – Fri
             </span>
           </div>
+
         </div>
 
+
         <!-- Batch 04 -->
-        <div class="bg-white rounded-xl p-6 shadow-sm flex items-center justify-between">
+        <div class="bg-white rounded-xl p-6 shadow-sm
+        hover:shadow-xl hover:-translate-y-1 transition duration-300
+        flex items-center justify-between"
+        data-aos="fade-up"
+        data-aos-delay="200">
+
           <div>
             <span class="text-primary text-sm font-bold">
               Batch 04
             </span>
+
             <h5 class="text-lg font-bold text-slate-900">
               Night Restorative
             </h5>
           </div>
+
           <div class="text-right">
             <p class="text-xl font-black text-slate-900">
               7:00 – 8:00 PM
             </p>
+
             <span class="text-sm text-slate-500">
               Mon – Fri
             </span>
           </div>
+
         </div>
+
       </div>
 
     </div>
+
   </div>
 </section>
 
 
 
+
+
 <!-- ================= WHY PRACTICE WITH US ================= -->
-<section class="py-24 bg-[#162111] text-slate-100">
-  <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
+<section class="relative py-24 bg-[#162111] text-slate-100 overflow-hidden">
+
+  <!-- Gradient Glow -->
+  <div class="absolute -top-40 -left-40 w-[400px] h-[400px] bg-primary/20 blur-[120px] rounded-full"></div>
+  <div class="absolute bottom-0 right-0 w-[350px] h-[350px] bg-primary/10 blur-[120px] rounded-full"></div>
+
+  <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center relative z-10">
 
     <!-- LEFT CONTENT -->
-    <div>
+    <div data-aos="fade-right" data-aos-duration="1000">
+
       <span class="text-primary text-sm font-bold uppercase tracking-[0.3em]">
         Our Philosophy
       </span>
@@ -491,10 +639,14 @@
       <div class="grid sm:grid-cols-2 gap-10">
 
         <!-- Item 1 -->
-        <div>
-          <div class="w-12 h-12 flex items-center justify-center rounded-xl bg-primary/20 text-primary mb-4">
-            👥
+        <div class="breath" data-aos="fade-up" data-aos-delay="100">
+          <div class="icon-box">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <circle cx="12" cy="7" r="4"/>
+              <path d="M5.5 21a6.5 6.5 0 0113 0"/>
+            </svg>
           </div>
+
           <h4 class="text-lg font-bold mb-2">Small Batch Sizes</h4>
           <p class="text-slate-400 text-sm leading-relaxed">
             We limit our groups to ensure quality supervision for everyone.
@@ -502,10 +654,13 @@
         </div>
 
         <!-- Item 2 -->
-        <div>
-          <div class="w-12 h-12 flex items-center justify-center rounded-xl bg-primary/20 text-primary mb-4">
-            🛡
+        <div class="breath" data-aos="fade-up" data-aos-delay="200">
+          <div class="icon-box">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path d="M12 3l7 4v5c0 5-3.5 9-7 9s-7-4-7-9V7l7-4z"/>
+            </svg>
           </div>
+
           <h4 class="text-lg font-bold mb-2">Personal Attention</h4>
           <p class="text-slate-400 text-sm leading-relaxed">
             Individual corrections and modifications based on your progress.
@@ -513,10 +668,13 @@
         </div>
 
         <!-- Item 3 -->
-        <div>
-          <div class="w-12 h-12 flex items-center justify-center rounded-xl bg-primary/20 text-primary mb-4">
-            🌿
+        <div class="breath" data-aos="fade-up" data-aos-delay="300">
+          <div class="icon-box">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path d="M6 21C6 12 18 3 18 3s3 12-6 18"/>
+            </svg>
           </div>
+
           <h4 class="text-lg font-bold mb-2">Peaceful Environment</h4>
           <p class="text-slate-400 text-sm leading-relaxed">
             A serene studio space designed to calm your senses instantly.
@@ -524,10 +682,13 @@
         </div>
 
         <!-- Item 4 -->
-        <div>
-          <div class="w-12 h-12 flex items-center justify-center rounded-xl bg-primary/20 text-primary mb-4">
-            ❤️
+        <div class="breath" data-aos="fade-up" data-aos-delay="400">
+          <div class="icon-box">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path d="M20.8 4.6a5.5 5.5 0 00-7.8 0L12 5.6l-1-1a5.5 5.5 0 00-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 000-7.8z"/>
+            </svg>
           </div>
+
           <h4 class="text-lg font-bold mb-2">Long-term Health</h4>
           <p class="text-slate-400 text-sm leading-relaxed">
             Sustainable practices focused on lifelong vitality and mobility.
@@ -538,15 +699,24 @@
     </div>
 
     <!-- RIGHT IMAGE -->
-    <div class="relative">
-      <div class="rounded-3xl overflow-hidden shadow-2xl bg-[#f7f3ea] p-10 h-[420px] flex items-end justify-between">
-        <img src="../assets/vakasan.png" alt="Plant" class="h-40">
-        <img src="../assets/natraj asan.png" alt="Plant" class="h-52">
+    <div class="relative" data-aos="fade-left" data-aos-duration="1200">
+
+      <div class="rounded-3xl overflow-hidden shadow-2xl">
+
+        <img
+          src="../assets/natraj asan.png"
+          alt="Yoga Practice"
+          class="w-full h-[420px] object-cover hover:scale-105 transition duration-700 yoga-image"
+        >
+
       </div>
+
     </div>
 
   </div>
-</section>
+</section>         
+
+
 
 
 
@@ -555,21 +725,31 @@
   <div class="max-w-7xl mx-auto px-6">
 
     <!-- Heading -->
-    <div class="text-center mb-16">
+    <div class="text-center mb-16"
+         data-aos="fade-up"
+         data-aos-duration="1000">
+
       <span class="text-primary text-sm font-bold uppercase tracking-[0.3em]">
         Student Voice
       </span>
+
       <h2 class="text-4xl md:text-5xl font-black mt-4 text-slate-900">
         What Our Students Say
       </h2>
+
     </div>
 
     <!-- Cards -->
     <div class="grid md:grid-cols-3 gap-8">
 
       <!-- Card 1 -->
-      <div class="bg-white rounded-3xl p-8 shadow-sm border border-slate-100 relative hover:shadow-lg transition">
-        <span class="text-primary text-5xl absolute top-6 right-6">“</span>
+      <div
+        data-aos="zoom-in"
+        data-aos-delay="100"
+        class="bg-white rounded-3xl p-8 shadow-sm border border-slate-100 relative
+               hover:-translate-y-2 hover:shadow-xl transition duration-300">
+
+        <span class="text-primary/30 text-6xl absolute top-4 right-6">“</span>
 
         <p class="text-slate-600 italic leading-relaxed mb-8">
           Practicing with Gokul has completely changed my posture and relieved my
@@ -587,9 +767,10 @@
             <img src="../assets/ankit.jpg"
                  alt="Ankit Semwal"
                  class="w-full h-full object-cover hover:scale-110 transition duration-300">
+
           </a>
 
-          <!-- Name + Role -->
+          <!-- Name -->
           <div>
             <h5 class="font-bold text-slate-900">
               <a href="https://www.instagram.com/_ankit_semwal_/"
@@ -599,15 +780,24 @@
                 Ankit Semwal
               </a>
             </h5>
-            <p class="text-sm text-slate-500">Fourth Year Student</p>
+
+            <p class="text-sm text-slate-500">
+              Fourth Year Student
+            </p>
           </div>
 
         </div>
       </div>
 
+
       <!-- Card 2 -->
-      <div class="bg-white rounded-3xl p-8 shadow-sm border border-slate-100 relative hover:shadow-lg transition">
-        <span class="text-primary text-5xl absolute top-6 right-6">“</span>
+      <div
+        data-aos="zoom-in"
+        data-aos-delay="200"
+        class="bg-white rounded-3xl p-8 shadow-sm border border-slate-100 relative
+               hover:-translate-y-2 hover:shadow-xl transition duration-300">
+
+        <span class="text-primary/30 text-6xl absolute top-4 right-6">“</span>
 
         <p class="text-slate-600 italic leading-relaxed mb-8">
           The meditation techniques I learned here have significantly helped me
@@ -618,8 +808,8 @@
 
           <div class="w-14 h-14 rounded-full overflow-hidden ring-2 ring-primary/20">
             <img src="../assets/student2.jpg"
-                 alt="David Chen"
-                 class="w-full h-full object-cover">
+                 alt="Kiran Nautiyal"
+                 class="w-full h-full object-cover hover:scale-110 transition duration-300">
           </div>
 
           <div>
@@ -631,15 +821,24 @@
                 Kiran Nautiyal
               </a>
             </h5>
-            <p class="text-sm text-slate-500">Corporate Professional</p>
+
+            <p class="text-sm text-slate-500">
+              Corporate Professional
+            </p>
           </div>
 
         </div>
       </div>
 
+
       <!-- Card 3 -->
-      <div class="bg-white rounded-3xl p-8 shadow-sm border border-slate-100 relative hover:shadow-lg transition">
-        <span class="text-primary text-5xl absolute top-6 right-6">“</span>
+      <div
+        data-aos="zoom-in"
+        data-aos-delay="300"
+        class="bg-white rounded-3xl p-8 shadow-sm border border-slate-100 relative
+               hover:-translate-y-2 hover:shadow-xl transition duration-300">
+
+        <span class="text-primary/30 text-6xl absolute top-4 right-6">“</span>
 
         <p class="text-slate-600 italic leading-relaxed mb-8">
           I started as a complete beginner and felt so welcomed. Gokul’s teaching
@@ -651,144 +850,239 @@
           <div class="w-14 h-14 rounded-full overflow-hidden ring-2 ring-primary/20">
             <img src="../assets/student3.jpg"
                  alt="Elena Rodriguez"
-                 class="w-full h-full object-cover">
+                 class="w-full h-full object-cover hover:scale-110 transition duration-300">
           </div>
 
           <div>
-            <h5 class="font-bold text-slate-900">Elena Rodriguez</h5>
-            <p class="text-sm text-slate-500">New Practitioner</p>
+            <h5 class="font-bold text-slate-900">
+              Elena Rodriguez
+            </h5>
+
+            <p class="text-sm text-slate-500">
+              New Practitioner
+            </p>
           </div>
 
         </div>
       </div>
 
     </div>
+
   </div>
-</section>
+</section> 
 
 <!-- ================= CONTACT ================= -->
-<section id="contact" class="py-24 bg-[#f6f8f6]">
-  <div class="max-w-6xl mx-auto px-6">
+<section id="contact" class="py-24 bg-[#f6f8f6]"
+data-aos="fade-up"
+data-aos-duration="1200">
 
-    <!-- Outer Card -->
-    <div class="bg-white rounded-3xl shadow-2xl overflow-hidden grid md:grid-cols-2">
+<div class="max-w-6xl mx-auto px-6">
 
-      <!-- LEFT INFO -->
-      <div class="p-12 md:p-16 flex flex-col justify-center">
-        <h2 class="text-4xl md:text-5xl font-black mb-6 text-slate-900">
-          Start your yoga journey today
-        </h2>
+<div class="bg-white rounded-3xl shadow-2xl overflow-hidden grid md:grid-cols-2">
 
-        <p class="text-slate-500 text-lg mb-10 leading-relaxed">
-          Send us a message and we'll help you find the perfect batch for your
-          fitness goals and schedule.
-        </p>
+<!-- LEFT INFO -->
+<div class="p-12 md:p-16 flex flex-col justify-center">
 
-        <div class="space-y-6 text-slate-700">
+<h2 class="text-4xl md:text-5xl font-black mb-6 text-slate-900">
+Start your yoga journey today
+</h2>
 
-          <div class="flex items-center gap-4">
-            <div class="w-10 h-10 flex items-center justify-center rounded-full bg-primary/15 text-primary">
-              📞
-            </div>
-            <span class="font-bold text-lg">+91 89794 00645</span>
-          </div>
+<p class="text-slate-500 text-lg mb-10 leading-relaxed">
+Send us a message and we'll help you find the perfect batch for your fitness goals and schedule.
+</p>
 
-          <div class="flex items-center gap-4">
-            <div class="w-10 h-10 flex items-center justify-center rounded-full bg-primary/15 text-primary">
-              ✉️
-            </div>
-            <span class="font-bold text-lg">maithanigoku@gmail.com</span>
-          </div>
+<div class="space-y-6 text-slate-700">
 
-          <div class="flex items-center gap-4">
-            <div class="w-10 h-10 flex items-center justify-center rounded-full bg-primary/15 text-primary">
-              📍
-            </div>
-            <span class="font-bold text-lg">
-              Uttarakhand, Rishikesh
-            </span>
-          </div>
+<!-- PHONE -->
+<div class="flex items-center gap-4">
 
-        </div>
-      </div>
+<div class="w-10 h-10 flex items-center justify-center rounded-full bg-primary/15 text-primary">
 
-      <!-- RIGHT FORM -->
-      <div class="bg-[#fbfdf9] p-12 md:p-16">
-
-  <form id="contactForm"
-        action="https://formsubmit.co/ajax/maithanigoku@gmail.com"
-        method="POST"
-        class="space-y-6">
-
-    <!-- Hidden Settings -->
-    <input type="hidden" name="_captcha" value="false">
-    <input type="hidden" name="_subject" value="New Yoga Enquiry from Website">
-
-    <!-- Full Name -->
-    <div>
-      <label class="block text-sm font-bold mb-2 text-slate-700">Full Name</label>
-      <input type="text" name="name" required
-        class="w-full rounded-xl border border-slate-200 px-5 py-3 focus:outline-none focus:ring-2 focus:ring-primary" />
-    </div>
-
-    <!-- Phone -->
-    <div>
-      <label class="block text-sm font-bold mb-2 text-slate-700">Phone Number</label>
-      <input type="tel" name="phone" required
-        class="w-full rounded-xl border border-slate-200 px-5 py-3 focus:outline-none focus:ring-2 focus:ring-primary" />
-    </div>
-
-    <!-- Message -->
-    <div>
-      <label class="block text-sm font-bold mb-2 text-slate-700">Your Message</label>
-      <textarea name="message" rows="4" required
-        class="w-full rounded-xl border border-slate-200 px-5 py-3 focus:outline-none focus:ring-2 focus:ring-primary"></textarea>
-    </div>
-
-    <!-- Submit -->
-    <button id="submitBtn"
-      class="w-full bg-primary text-dark font-black py-4 rounded-xl flex justify-center items-center gap-3 transition">
-
-      <span id="btnText">Send Enquiry</span>
-
-      <!-- Spinner -->
-      <svg id="loader" class="hidden w-5 h-5 animate-spin"
-           viewBox="0 0 24 24" fill="none">
-        <circle class="opacity-25" cx="12" cy="12" r="10"
-                stroke="currentColor" stroke-width="4"></circle>
-        <path class="opacity-75" fill="currentColor"
-              d="M4 12a8 8 0 018-8v8H4z"></path>
-      </svg>
-
-    </button>
-
-  </form>
+<svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+<path d="M22 16.92V21a1 1 0 01-1.09 1A19.72 19.72 0 013 5.09 1 1 0 014 4h4.09a1 1 0 011 .75l.7 3.11a1 1 0 01-.27.95L8.91 10.09a16 16 0 006 6l1.28-1.61a1 1 0 01.95-.27l3.11.7a1 1 0 01.75 1z"/>
+</svg>
 
 </div>
+
+<span class="font-bold text-lg">+91 89794 00645</span>
+
+</div>
+
+<!-- EMAIL -->
+<div class="flex items-center gap-4">
+
+<div class="w-10 h-10 flex items-center justify-center rounded-full bg-primary/15 text-primary">
+
+<svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+<path d="M4 4h16v16H4z"/>
+<path d="M22 6l-10 7L2 6"/>
+</svg>
+
+</div>
+
+<span class="font-bold text-lg">maithanigoku@gmail.com</span>
+
+</div>
+
+<!-- LOCATION -->
+<div class="flex items-center gap-4">
+
+<div class="w-10 h-10 flex items-center justify-center rounded-full bg-primary/15 text-primary">
+
+<svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+<path d="M12 21s-6-5.33-6-10a6 6 0 1112 0c0 4.67-6 10-6 10z"/>
+<circle cx="12" cy="11" r="2"/>
+</svg>
+
+</div>
+
+<span class="font-bold text-lg">
+Uttarakhand, Rishikesh
+</span>
+
+</div>
+
+</div>
+</div>
+
+
+<!-- FORM -->
+<div class="bg-[#fbfdf9] p-12 md:p-16">
+
+<form id="contactForm" class="space-y-6">
+
+<!-- NAME -->
+<div>
+
+<label class="block text-sm font-bold mb-2 text-slate-700">
+Full Name
+</label>
+
+<input
+id="name"
+type="text"
+placeholder="Example: Rahul Sharma"
+class="w-full rounded-xl border border-slate-200 px-5 py-3 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary transition"
+/>
+
+<p id="nameError" class="text-red-500 text-sm hidden mt-1">
+Please enter your name
+</p>
+
+</div>
+
+
+<!-- PHONE -->
+<div>
+
+<label class="block text-sm font-bold mb-2 text-slate-700">
+Phone Number
+</label>
+
+<input
+id="phone"
+type="tel"
+placeholder="Example: +91 98765 43210"
+class="w-full rounded-xl border border-slate-200 px-5 py-3 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary transition"
+/>
+
+<p id="phoneError" class="text-red-500 text-sm hidden mt-1">
+Enter a valid phone number
+</p>
+
+</div>
+
+
+<!-- MESSAGE -->
+<div>
+
+<label class="block text-sm font-bold mb-2 text-slate-700">
+Your Message
+</label>
+
+<textarea
+id="message"
+rows="4"
+placeholder="Example: I want to join the morning yoga batch. Please share details."
+class="w-full rounded-xl border border-slate-200 px-5 py-3 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary transition"></textarea>
+
+<p id="messageError" class="text-red-500 text-sm hidden mt-1">
+Message cannot be empty
+</p>
+
+</div>
+
+
+<!-- BUTTON -->
+<button
+id="submitBtn"
+class="w-full bg-primary text-dark font-black py-4 rounded-xl flex justify-center items-center gap-3 hover:shadow-xl hover:shadow-primary/30 transition">
+
+<span id="btnText">Send Enquiry</span>
+
+<svg id="loader" class="hidden w-5 h-5 animate-spin" viewBox="0 0 24 24">
+
+<circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4" class="opacity-25"/>
+
+<path fill="currentColor" d="M4 12a8 8 0 018-8v8H4z" class="opacity-75"/>
+
+</svg>
+
+</button>
+
+</form>
+
+</div>
+
+</div>
+</div>
+</section>
+
 
 <!-- SUCCESS POPUP -->
 <div id="successModal"
-     class="fixed inset-0 bg-black/50 hidden items-center justify-center z-50">
+class="fixed inset-0 bg-black/50 hidden items-center justify-center z-50">
 
-  <div class="bg-white rounded-2xl p-10 max-w-sm text-center shadow-2xl">
-    <h3 class="text-2xl font-black mb-4 text-slate-900">
-      Thank You 🙏
-    </h3>
-    <p class="text-slate-600 mb-6">
-      Your enquiry has been sent successfully.
-      We’ll get back to you soon.
-    </p>
-    <button onclick="closeModal()"
-            class="bg-primary text-dark px-6 py-3 rounded-lg font-bold">
-      Close
-    </button>
-  </div>
+<div class="bg-white rounded-2xl p-10 max-w-sm text-center shadow-2xl">
+
+<div class="flex justify-center mb-6">
+
+<div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center animate-bounce">
+
+<svg xmlns="http://www.w3.org/2000/svg"
+class="w-8 h-8 text-dark"
+fill="none"
+stroke="currentColor"
+stroke-width="3"
+viewBox="0 0 24 24">
+
+<path stroke-linecap="round"
+stroke-linejoin="round"
+d="M5 13l4 4L19 7"/>
+
+</svg>
 
 </div>
 
-    </div>
-  </div>
-</section>
+</div>
+
+<h3 class="text-2xl font-black mb-4 text-slate-900">
+Message Ready
+</h3>
+
+<p class="text-slate-600 mb-6">
+WhatsApp chat opened.  
+Just press send to complete your enquiry.
+</p>
+
+<button onclick="closeModal()"
+class="bg-primary text-dark px-6 py-3 rounded-lg font-bold">
+Close
+</button>
+
+</div>
+</div>
+
 
 
 
@@ -801,47 +1095,9 @@
 <script src="../js/home.js" defer></script>
 
 
-<script>
-  const form = document.getElementById("contactForm");
-  const button = document.getElementById("submitBtn");
-  const loader = document.getElementById("loader");
-  const btnText = document.getElementById("btnText");
-  const modal = document.getElementById("successModal");
+<!-- scroll animation -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-  form.addEventListener("submit", async function (e) {
-    e.preventDefault();
-
-    // Disable button
-    button.disabled = true;
-    loader.classList.remove("hidden");
-    btnText.textContent = "Sending...";
-
-    const formData = new FormData(form);
-
-    try {
-      await fetch(form.action, {
-        method: "POST",
-        body: formData
-      });
-
-      modal.classList.remove("hidden");
-      modal.classList.add("flex");
-      form.reset();
-
-    } catch (error) {
-      alert("Something went wrong. Please try again.");
-    }
-
-    // Enable button again
-    button.disabled = false;
-    loader.classList.add("hidden");
-    btnText.textContent = "Send Enquiry";
-  });
-
-  function closeModal() {
-    modal.classList.add("hidden");
-  }
-</script>
 
 </body>
 </html>

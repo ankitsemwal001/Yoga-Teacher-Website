@@ -1,27 +1,18 @@
 async function loadComponent(id, file) {
+
   const el = document.getElementById(id);
   if (!el) return;
 
   const res = await fetch(file);
-  el.innerHTML = await res.text();
+  const html = await res.text();
 
-  // 🔥 FOOTER ANIMATION INIT AFTER LOAD
-  if (id === "site-footer") {
-    const footer = document.getElementById("siteFooter");
-    if (!footer) return;
+  el.innerHTML = html;
 
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          footer.classList.add("footer-visible");
-          observer.unobserve(footer);
-        }
-      },
-      { threshold: 0.15 }
-    );
-
-    observer.observe(footer);
+  // Tailwind refresh for CDN
+  if (window.tailwind && typeof window.tailwind.refresh === "function") {
+    window.tailwind.refresh();
   }
+
 }
 
 loadComponent("site-header", "../templates/header.html");

@@ -12,33 +12,51 @@ img {
 
 
 
-/* ================= FOOTER ANIMATION ================= */
-.footer-hidden {
-  opacity: 0;
-  transform: translateY(60px);
-  transition: opacity 0.9s ease, transform 0.9s ease;
+/* why practice with us */
+
+.yoga-image{
+transition: transform 0.7s ease;
 }
 
-.footer-visible {
-  opacity: 1;
-  transform: translateY(0);
+.yoga-image:hover{
+transform: scale(1.05);
 }
 
 
 
+/* ================= BREATHING ICON EFFECT ================= */
 
-/* Mobile polish */
-@media (max-width: 640px) {
-  section {
-    padding-top: 4rem !important;
-    padding-bottom: 4rem !important;
-  }
+.breath .icon-box{
+width:48px;
+height:48px;
+display:flex;
+align-items:center;
+justify-content:center;
 
-  h3 {
-    line-height: 1.2;
-  }
+background:rgba(93,230,25,0.15);
+color:#5de619;
 
-  .footer-hidden {
-    transform: translateY(40px);
-  }
+border-radius:12px;
+margin-bottom:16px;
+
+animation:breathe 4s ease-in-out infinite;
 }
+
+@keyframes breathe{
+
+0%{
+transform:scale(1);
+}
+
+50%{
+transform:scale(1.08);
+}
+
+100%{
+transform:scale(1);
+}
+
+}
+
+
+
